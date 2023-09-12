@@ -16,10 +16,7 @@ public class Main {
         menu.addItem(item3);
         menu.addItem(item4);
 
-        System.out.println(menu);
-
         menu.removeItem(item4);
-        System.out.println(menu);
 
         System.out.println(item1.equals(item2));
 
